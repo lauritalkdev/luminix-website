@@ -3,54 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Luminix builds intelligent AI and Web3 solutions to illuminate real-world challenges. Creators of the flagship Lauritalk App.">
-    <title>Luminix | Lighting the Path with AI & Web3</title>
-    
-    <!-- Google Analytics (GA4) - Replace G-XXXXXXXXXX with your Measurement ID -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ8Z7EJ40M"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-PJ8Z7EJ40M');
-    </script>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="keywords" content="AI solutions, Web3, blockchain, Lauritalk, translation app, AI translation, Web3 applications, technology company, startup">
+
+    <title>Luminix | Turning Problems Into Intelligent Products</title>
+
+    <meta
+        name="description"
+        content="Luminix partners with startups, businesses and organizations to design, build and scale intelligent digital products across AI, web, mobile, fintech and Web3."
+    >
+
+    <meta
+        name="keywords"
+        content="Luminix, AI development, web development, mobile app development, fintech development, blockchain development, Web3 development, digital products, software development"
+    >
+
     <meta name="author" content="Luminix">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta
+        name="robots"
+        content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    >
+
     <link rel="canonical" href="https://luminix.space">
-    
-    <!-- Open Graph Meta Tags (for social media sharing) -->
-    <meta property="og:title" content="Luminix | Lighting the Path with AI & Web3">
-    <meta property="og:description" content="We build cutting-edge AI and Web3 solutions that solve real problems. Creators of Lauritalk, the AI-powered Web3 translation app.">
+
+    <!-- Open Graph -->
+    <meta
+        property="og:title"
+        content="Luminix | Turning Problems Into Intelligent Products"
+    >
+    <meta
+        property="og:description"
+        content="We design, build and scale intelligent digital products across AI, web, mobile, fintech and Web3."
+    >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://luminix.space">
-    <meta property="og:image" content="https://luminix.space/assets/images/og-image.jpg">
+    <meta
+        property="og:image"
+        content="https://luminix.space/assets/images/og-image.jpg"
+    >
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Luminix">
-    
-    <!-- Twitter Card Meta Tags -->
+
+    <!-- Twitter / X -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Luminix | Lighting the Path with AI & Web3">
-    <meta name="twitter:description" content="We build cutting-edge AI and Web3 solutions that solve real problems. Creators of Lauritalk, the AI-powered Web3 translation app.">
-    <meta name="twitter:image" content="https://luminix.space/assets/images/twitter-image.jpg">
+    <meta
+        name="twitter:title"
+        content="Luminix | Turning Problems Into Intelligent Products"
+    >
+    <meta
+        name="twitter:description"
+        content="We design, build and scale intelligent digital products across AI, web, mobile, fintech and Web3."
+    >
+    <meta
+        name="twitter:image"
+        content="https://luminix.space/assets/images/twitter-image.jpg"
+    >
     <meta name="twitter:site" content="@Luminixspace">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-    
-    <!-- Structured Data for Organization -->
+
+    <!-- Favicons -->
+    <link
+        rel="icon"
+        type="image/x-icon"
+        href="assets/images/favicon.ico"
+    >
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="assets/images/apple-touch-icon.png"
+    >
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Google Analytics -->
+    <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-PJ8Z7EJ40M"
+    ></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag("js", new Date());
+        gtag("config", "G-PJ8Z7EJ40M");
+    </script>
+
+    <!-- Organization Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Luminix",
-        "description": "Accessible, secure, and empowering solutions that connect, educate and simplify.",
+        "description": "Luminix designs, builds and scales intelligent digital products across AI, web, mobile, fintech and Web3.",
         "url": "https://luminix.space",
         "logo": "https://luminix.space/assets/images/logo.png",
+        "foundingDate": "2025",
         "sameAs": [
             "https://www.linkedin.com/company/luminixspace/",
             "https://facebook.com/luminixspace",
@@ -62,590 +112,1510 @@
             "email": "contact@luminix.space",
             "contactType": "customer service",
             "availableLanguage": ["English"]
-        },
-        "foundingDate": "2025"
+        }
     }
     </script>
-    
-    <!-- Structured Data for Website -->
+
+    <!-- Website Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Luminix",
-        "url": "https://luminix.space",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://luminix.space/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        }
+        "url": "https://luminix.space"
     }
     </script>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-br from-blue-50 to-indigo-100">
-    <!-- Header & Navigation -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <!-- Logo -->
-            <div class="text-2xl font-bold text-blue-900">Luminix</div>
-            <!-- Navigation Links -->
-            <div class="hidden md:flex space-x-8">
-                <a href="#solutions" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">Solutions</a>
-                <a href="#products" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">Products</a>
-                <a href="#team" class="text-gray-600 hover:text-blue-900 font-medium transition duration-300">Team</a>
-                <a href="#contact" class="bg-blue-900 text-white px-4 py-2 rounded-lg hover:bg-blue-800 font-medium transition duration-300">Get in Touch</a>
-            </div>
-            <!-- Mobile menu button -->
-            <button class="md:hidden text-blue-900">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+
+<body>
+
+    <!-- =========================================================
+         HEADER / NAVIGATION
+    ========================================================== -->
+    <header class="site-header" id="site-header">
+        <div class="container nav-container">
+
+            <a
+                href="#home"
+                class="brand"
+                aria-label="Luminix home"
+            >
+                <span class="brand-mark" aria-hidden="true"></span>
+                <span class="brand-name">Luminix</span>
+            </a>
+
+            <nav
+                class="desktop-nav"
+                aria-label="Main navigation"
+            >
+                <a href="#solutions">Solutions</a>
+                <a href="#products">Products</a>
+                <a href="#work">Our Work</a>
+                <a href="#process">How We Work</a>
+            </nav>
+
+            <a
+                href="#contact"
+                class="button button-primary nav-cta"
+            >
+                Start a Project
+            </a>
+
+            <button
+                class="mobile-menu-button"
+                id="mobile-menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
+
+        </div>
+
+        <nav
+            class="mobile-menu"
+            id="mobile-menu"
+            aria-label="Mobile navigation"
+        >
+            <a href="#solutions">Solutions</a>
+            <a href="#products">Products</a>
+            <a href="#work">Our Work</a>
+            <a href="#process">How We Work</a>
+            <a href="#contact" class="mobile-menu-cta">
+                Start a Project
+            </a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="container mx-auto px-6 py-20 text-center">
-        <h1 class="text-5xl md:text-7xl font-bold text-blue-900 mb-6">
-            Your Technical Partner <span class="text-yellow-500">For Building,</span> Scalable Digital Products
-        </h1>
-        <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            We design, build, and scale web, mobile, AI, and blockchain solutions for <span class="font-semibold text-blue-900">Startups and businesses—end-to-end</span>.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <button onclick="scrollToSection('solutions')" class="bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-800 font-medium text-lg transition duration-300">
-                Start a Project
-            </button>
-            <button onclick="scrollToSection('team')" class="border-2 border-blue-900 text-blue-900 px-8 py-4 rounded-lg hover:bg-blue-900 hover:text-white font-medium text-lg transition duration-300">
-                Meet The Team
-            </button>
-        </div>
-    </section>
 
-    <!-- Solutions Section -->
-    <section id="solutions" class="bg-white py-20">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-blue-900 mb-4">What We Build</h2>
-            <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">We help startups and businesses design, develop, and scale high-performance digital products.</p>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Solution 1 -->
-                <div class="bg-blue-50 p-8 rounded-xl border border-blue-100 hover:shadow-lg transition duration-300">
-                    <div class="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-4">AI</div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-4">AI Integration & Automation</h3>
-                    <p class="text-gray-600">Custom AI systems, automation tools, and intelligent features integrated into your product to improve performance and user experience</p>
-                </div>
-                
-                <!-- Solution 2 -->
-                <div class="bg-blue-50 p-8 rounded-xl border border-blue-100 hover:shadow-lg transition duration-300">
-                    <div class="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-4">W3</div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-4">Blockchain & Web3 Development</h3>
-                    <p class="text-gray-600">Secure, scalable blockchain applications, smart contracts, and decentralized systems built for real-world use</p>
-                </div>
-                
-                <!-- Solution 3 -->
-                <div class="bg-blue-50 p-8 rounded-xl border border-blue-100 hover:shadow-lg transition duration-300">
-                    <div class="w-12 h-12 bg-blue-900 rounded-lg flex items-center justify-center text-white text-xl font-bold mb-4">CX</div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-4">Web & Mobile App Development</h3>
-                    <p class="text-gray-600">Modern, scalable web and mobile applications built with performance, usability, and growth in mind.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <main>
 
-    <!-- Products Section -->
-    <section id="products" class="bg-gradient-to-r from-blue-900 to-indigo-900 py-20 text-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-4">What We’ve Built</h2>
-            <p class="text-xl text-blue-200 text-center mb-12 max-w-2xl mx-auto">Real products we’ve designed and developed to demonstrate our engineering capabilities.</p>
-            
-            <div class="bg-white rounded-2xl p-8 md:p-12 shadow-2xl max-w-6xl mx-auto">
-                <div class="grid lg:grid-cols-2 gap-12 items-center">
-                    <!-- App Info -->
-                    <div>
-                        <div class="mb-6">
-                            <h3 class="text-4xl font-bold text-blue-900">Lauritalk App</h3>
-                        </div>
-                        <p class="text-gray-600 text-lg mb-6">
-                            Lauritalk is an AI-powered translation platform designed and built by Luminix. <span class="font-semibold text-blue-900">It demonstrates</span>. our ability to engineer scalable, real-world applications using AI and modern digital infrastructure
-                        </p>
-                        
-                        <div class="space-y-4 mb-8">
-                            <div class="flex items-center gap-3">
-                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                                <span class="text-gray-700 font-medium">200+ languages & dialects</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                                <span class="text-gray-700 font-medium">Built for travelers, students, migrants</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                                <span class="text-gray-700 font-medium">Accessibility features for speech & visually impaired</span>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <div class="w-2 h-2 bg-yellow-500 rounded-full"></div>
-                                <span class="text-gray-700 font-medium">Web3 secure & decentralized</span>
-                            </div>
-                        </div>
-                        
-                        <a href="https://www.lauritalk.com" target="_blank" class="inline-block bg-blue-900 text-white px-8 py-4 rounded-lg hover:bg-blue-800 font-medium text-lg transition duration-300">
-                            Learn More About Lauritalk
-                        </a>
-                    </div>
-                    
-                    <!-- Single App Mockup -->
-                    <div class="flex justify-center items-center">
-                        <div class="relative w-48 h-96 bg-gray-800 rounded-3xl border-4 border-gray-700 shadow-2xl overflow-hidden">
-                            <div class="absolute top-3 left-1/2 transform -translate-x-1/2 w-16 h-5 bg-gray-900 rounded-full z-10"></div>
-                            <div class="w-full h-full">
-                                <img src="assets/images/lauritalk-screen1.jpeg" alt="Lauritalk App Interface" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjM4NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYwYUVGRiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg4ODNFQyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIwLjNlbSI+TGF1cml0YWxrIEFwcDwvdGV4dD48dGV4dCB4PSI1MCUiIHk9IjU1JSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZTVlNWU1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4xNTArIExhbmd1YWdlczwvdGV4dD48L3N2Zz4=';">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <!-- =====================================================
+             HERO
+        ====================================================== -->
+        <section class="hero section" id="home">
 
-    <!-- Team Section -->
-    <section id="team" class="bg-white py-20">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center text-blue-900 mb-4">Our Team</h2>
-            <p class="text-xl text-gray-600 text-center mb-12 max-w-2xl mx-auto">A focused team of engineers, product thinkers, and problem-solvers dedicated to building high-quality digital solutions</p>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Team Member 1 -->
-                <div class="bg-blue-50 rounded-2xl p-6 text-center hover:shadow-lg transition duration-300 border border-blue-100">
-                    <!-- Photo - Replace with actual image -->
-                    <div class="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-700 rounded-full mx-auto mb-6 overflow-hidden">
-                        <img src="assets/images/ebong-eric.jpeg" alt="Ebong Eric E" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='EE'; this.parentElement.classList.add('flex', 'items-center', 'justify-center', 'text-white', 'text-4xl', 'font-bold')">
-                    </div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-2">Ebong Eric E</h3>
-                    <p class="text-yellow-600 font-semibold mb-4">Founder & Lead Dev</p>
-                    <p class="text-gray-600 text-sm">The visionary who started it all. Codes like he's composing poetry and somehow makes blockchain look easy. Our resident "idea machine"(www.ebongeric.com).</p>
-                </div>
-                
-                <!-- Team Member 2 -->
-                <div class="bg-blue-50 rounded-2xl p-6 text-center hover:shadow-lg transition duration-300 border border-blue-100">
-                    <!-- Photo - Replace with actual image -->
-                    <div class="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-700 rounded-full mx-auto mb-6 overflow-hidden">
-                        <img src="assets/images/laupatty-bato.jpeg" alt="Laupatty Bato N" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='LB'; this.parentElement.classList.add('flex', 'items-center', 'justify-center', 'text-white', 'text-4xl', 'font-bold')">
-                    </div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-2">Laupatty Bato N</h3>
-                    <p class="text-yellow-600 font-semibold mb-4">Project Manager</p>
-                    <p class="text-gray-600 text-sm">Keeps us organized and on track. Turns chaos into order and coffee into productivity. The only one who understands our timelines(MBA in Project Management, PGD in Human Resource Management).</p>
-                </div>
-                
-                <!-- Team Member 3 -->
-                <div class="bg-blue-50 rounded-2xl p-6 text-center hover:shadow-lg transition duration-300 border border-blue-100">
-                    <!-- Photo - Replace with actual image -->
-                    <div class="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-700 rounded-full mx-auto mb-6 overflow-hidden">
-                        <img src="assets/images/akamin-macelus.jpeg" alt="Akamin Macelus A" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='AM'; this.parentElement.classList.add('flex', 'items-center', 'justify-center', 'text-white', 'text-4xl', 'font-bold')">
-                    </div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-2">Akamin Macelus A</h3>
-                    <p class="text-yellow-600 font-semibold mb-4">Technical Adviser</p>
-                    <p class="text-gray-600 text-sm">Our walking encyclopedia. Makes complex concepts understandable and occasionally tells dad jokes during meetings(Over 25years of Business Experience).</p>
-                </div>
-                
-                <!-- Team Member 4 -->
-                <div class="bg-blue-50 rounded-2xl p-6 text-center hover:shadow-lg transition duration-300 border border-blue-100">
-                    <!-- Photo - Replace with actual image -->
-                    <div class="w-32 h-32 bg-gradient-to-br from-blue-400 to-blue-700 rounded-full mx-auto mb-6 overflow-hidden">
-                        <img src="assets/images/ebong-blaise.jpeg" alt="Ebong Blaise E" class="w-full h-full object-cover" onerror="this.style.display='none'; this.parentElement.innerHTML='EB'; this.parentElement.classList.add('flex', 'items-center', 'justify-center', 'text-white', 'text-4xl', 'font-bold')">
-                    </div>
-                    <h3 class="text-2xl font-bold text-blue-900 mb-2">Ebong Blaise E</h3>
-                    <p class="text-yellow-600 font-semibold mb-4">Chief Technology Officer</p>
-                    <p class="text-gray-600 text-sm">Architect of our technical dreams. Turns "impossible" into "deployed yesterday". Known for fixing bugs with a single glance.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-gradient-to-r from-blue-900 to-indigo-900 py-20 text-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-4">Start Your Project</h2>
-            <p class="text-xl text-blue-200 text-center mb-12 max-w-2xl mx-auto">Tell us what you're building—we’ll handle the technical execution from idea to deployment.</p>
-            
-            <div class="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-                <!-- Contact Form -->
-                <div class="bg-white rounded-2xl p-8 shadow-2xl">
-                    <h3 class="text-2xl font-bold text-blue-900 mb-6">Send Us a Message</h3>
-                    
-                    <!-- Form Status Messages -->
-                    <div id="form-message" class="hidden p-4 mb-6 rounded-lg"></div>
-                    
-                    <!-- Formspree Form with YOUR ENDPOINT -->
-                    <form id="contact-form" action="https://formspree.io/f/mldqnlqg" method="POST" class="space-y-6">
-                        <!-- Honeypot field for spam protection (hidden from users) -->
-                        <input type="text" name="_gotcha" style="display: none;">
-                        
-                        <!-- Hidden subject field for better email organization -->
-                        <input type="hidden" name="_subject" value="New Contact from Luminix Website">
-                        
-                        <!-- Hidden reply-to field to ensure replies go to sender -->
-                        <input type="hidden" name="_replyto" id="reply-to">
-                        
-                        <div>
-                            <label for="inquiry-type" class="block text-gray-700 font-medium mb-2">What brings you here? *</label>
-                            <select id="inquiry-type" name="inquiry-type" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-700 bg-white" required>
-                                <option value="">Select an option</option>
-                                <option value="Partnership/Collaboration">Partnership/Collaboration</option>
-                                <option value="Investment Inquiry">Technical Partnership / Outsourcing</option>
-                                <option value="Project Discussion">Build a Product</option>
-                                <option value="Career Opportunity">Startup or Business Collaboration</option>
-                                <option value="Just Saying Hello">Request a Consultation</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                        
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <label for="first-name" class="block text-gray-700 font-medium mb-2">First Name *</label>
-                                <input type="text" id="first-name" name="first-name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 bg-white" required>
-                            </div>
-                            <div>
-                                <label for="last-name" class="block text-gray-700 font-medium mb-2">Last Name *</label>
-                                <input type="text" id="last-name" name="last-name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 bg-white" required>
-                            </div>
-                        </div>
-                        
-                        <div>
-                            <label for="email" class="block text-gray-700 font-medium mb-2">Email *</label>
-                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 bg-white" required>
-                        </div>
-                        
-                        <div>
-                            <label for="message" class="block text-gray-700 font-medium mb-2">Your Message *</label>
-                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 bg-white" required></textarea>
-                        </div>
-                        
-                        <!-- Submit Button with Loading State -->
-                        <button id="submit-button" type="submit" class="w-full bg-blue-900 text-white py-4 rounded-lg hover:bg-blue-800 font-medium text-lg transition duration-300 flex items-center justify-center">
-                            <span id="button-text">Send Message</span>
-                            <svg id="loading-spinner" class="hidden w-5 h-5 ml-2 animate-spin text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                            </svg>
-                        </button>
-                        
-                        <!-- Formspree hidden fields -->
-                        <input type="hidden" name="_language" value="en">
-                        <input type="hidden" name="_format" value="plain">
-                        <input type="hidden" name="_next" value="https://luminix.space/thank-you">
-                    </form>
-                    
-                    <p class="text-gray-500 text-sm mt-4 text-center">
-                        <span class="text-yellow-600">✨ Pro tip:</span> We promise not to send you blockchain-themed spam. Probably.
+            <div class="container hero-layout">
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+                        DIGITAL PRODUCT ENGINEERING
                     </p>
-                </div>
-                
-                <!-- Contact Info -->
-                <div class="flex flex-col justify-center">
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold mb-2">Email Us</h4>
-                                <p class="text-blue-200">contact@luminix.space</p>
-                                <p class="text-blue-300 text-sm mt-1">We respond faster than most AI models. Almost.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold mb-2">Collaboration</h4>
-                                <p class="text-blue-200">partnership@luminix.space</p>
-                                <p class="text-blue-300 text-sm mt-1">Got a brilliant idea? Let's make it shine together.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1"></path></svg>
-                            </div>
-                            <div>
-                                <h4 class="text-xl font-bold mb-2">Investors</h4>
-                                <p class="text-blue-200">invest@luminix.space</p>
-                                <p class="text-blue-300 text-sm mt-1">Ready to light up the future with us? Let's talk numbers.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="bg-blue-800/30 p-4 rounded-lg border border-blue-700/30 mt-8">
-                            <h4 class="text-xl font-bold mb-2 text-yellow-400">💡 Quick Response Guarantee</h4>
-                            <p class="text-blue-200">We'll get back to you within 24 hours. If we don't, we owe you a virtual coffee. ☕</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-6">
-            <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-6 md:mb-0">
-                    <div class="text-2xl font-bold text-white mb-4">Luminix</div>
-                    <p class="text-gray-400 mb-4">Building scalable digital products for startups and businesses worldwide</p>
-                    <!-- Social Media Icons -->
-                    <div class="flex space-x-4">
-                        <a href="https://www.linkedin.com/company/luminixspace/" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                            </svg>
+                    <h1>
+                        From Problem to
+                        <span>Intelligent Product.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Luminix partners with startups, businesses and
+                        organizations to design, build and scale intelligent
+                        digital products across AI, web, mobile, fintech
+                        and Web3.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a
+                            href="#contact"
+                            class="button button-primary button-large"
+                        >
+                            Start a Project
+                            <span aria-hidden="true">→</span>
                         </a>
-                        <a href="https://facebook.com/luminixspace" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                            </svg>
+
+                        <a
+                            href="#work"
+                            class="button button-secondary button-large"
+                        >
+                            Explore Our Work
                         </a>
-                        <!-- X (Twitter) -->
-                        <a href="https://x.com/Luminixspace?t=5o1Usd6AbsEBbK5OvIiQkA&s=09" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+
+                    </div>
+
+                    <div
+                        class="hero-capabilities"
+                        aria-label="Luminix capabilities"
+                    >
+                        <span>AI &amp; Automation</span>
+                        <span>Web &amp; Mobile</span>
+                        <span>Fintech</span>
+                        <span>Blockchain &amp; Web3</span>
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="hero-visual"
+                    aria-label="Luminix digital product engineering"
+                >
+
+                    <div class="hero-visual-orbit orbit-one"></div>
+                    <div class="hero-visual-orbit orbit-two"></div>
+
+                    <div class="hero-product-window">
+
+                        <div class="product-window-topbar">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span class="window-label">
+                                LUMINIX / PRODUCT SYSTEM
+                            </span>
+                        </div>
+
+                        <div class="product-window-body">
+
+                            <div class="product-window-sidebar">
+                                <span class="sidebar-logo"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="product-window-main">
+
+                                <div class="window-heading">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <div class="window-grid">
+
+                                    <div class="window-card window-card-large">
+                                        <div class="window-chart">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="window-card">
+                                        <div class="window-circle"></div>
+                                    </div>
+
+                                    <div class="window-card">
+                                        <div class="window-lines">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-card-ai">
+                        <span class="floating-icon">AI</span>
+
+                        <div>
+                            <strong>Intelligent</strong>
+                            <small>Product experiences</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-card-build">
+                        <span class="status-dot"></span>
+
+                        <div>
+                            <strong>Built to Scale</strong>
+                            <small>From idea to deployment</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container hero-signature">
+                <span></span>
+                <p>Turning problems into intelligent products.</p>
+                <span></span>
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             SOLUTIONS
+        ====================================================== -->
+        <section
+            class="section solutions-section"
+            id="solutions"
+        >
+            <div class="container">
+
+                <div class="section-heading centered-heading">
+
+                    <p class="eyebrow">WHAT WE BUILD</p>
+
+                    <h2>
+                        High-Impact
+                        <span>Digital Solutions</span>
+                    </h2>
+
+                    <p>
+                        From first concept to deployment, we combine product
+                        thinking and engineering to build technology around
+                        real business needs.
+                    </p>
+
+                </div>
+
+
+                <div class="solutions-grid">
+
+                    <article class="solution-card">
+
+                        <div class="solution-icon" aria-hidden="true">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            >
+                                <path d="M12 2v4"></path>
+                                <path d="M12 18v4"></path>
+                                <path d="M4.93 4.93l2.83 2.83"></path>
+                                <path d="M16.24 16.24l2.83 2.83"></path>
+                                <path d="M2 12h4"></path>
+                                <path d="M18 12h4"></path>
+                                <path d="M4.93 19.07l2.83-2.83"></path>
+                                <path d="M16.24 7.76l2.83-2.83"></path>
+                                <circle cx="12" cy="12" r="4"></circle>
                             </svg>
+                        </div>
+
+                        <h3>AI &amp; Automation</h3>
+
+                        <p>
+                            Intelligent features, AI-powered applications
+                            and workflow automation designed to improve
+                            efficiency and create better user experiences.
+                        </p>
+
+                        <span class="card-number">01</span>
+
+                    </article>
+
+
+                    <article class="solution-card">
+
+                        <div class="solution-icon" aria-hidden="true">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            >
+                                <rect
+                                    x="3"
+                                    y="4"
+                                    width="18"
+                                    height="12"
+                                    rx="2"
+                                ></rect>
+                                <path d="M8 20h8"></path>
+                                <path d="M12 16v4"></path>
+                                <path d="M7 8h4"></path>
+                                <path d="M7 11h7"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Web &amp; Mobile Products</h3>
+
+                        <p>
+                            Modern websites, web platforms and mobile
+                            applications engineered for performance,
+                            usability and growth.
+                        </p>
+
+                        <span class="card-number">02</span>
+
+                    </article>
+
+
+                    <article class="solution-card">
+
+                        <div class="solution-icon" aria-hidden="true">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            >
+                                <rect
+                                    x="3"
+                                    y="6"
+                                    width="18"
+                                    height="13"
+                                    rx="2"
+                                ></rect>
+                                <path d="M3 10h18"></path>
+                                <path d="M7 15h3"></path>
+                                <path d="M15 15h2"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Fintech Solutions</h3>
+
+                        <p>
+                            Secure digital financial products and
+                            infrastructure built around payments,
+                            financial workflows and modern user experiences.
+                        </p>
+
+                        <span class="card-number">03</span>
+
+                    </article>
+
+
+                    <article class="solution-card">
+
+                        <div class="solution-icon" aria-hidden="true">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.8"
+                            >
+                                <path d="M12 2l8 4.5v9L12 20l-8-4.5v-9L12 2z"></path>
+                                <path d="M4 6.5l8 4.5 8-4.5"></path>
+                                <path d="M12 11v9"></path>
+                            </svg>
+                        </div>
+
+                        <h3>Blockchain &amp; Web3</h3>
+
+                        <p>
+                            Smart contracts, decentralized applications,
+                            wallets and blockchain-powered systems designed
+                            around practical real-world utility.
+                        </p>
+
+                        <span class="card-number">04</span>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             LUMINIX PRODUCTS
+        ====================================================== -->
+        <section
+            class="section products-section"
+            id="products"
+        >
+            <div class="container">
+
+                <div class="section-heading products-heading">
+
+                    <p class="eyebrow">LUMINIX PRODUCTS</p>
+
+                    <h2>
+                        We Build Products
+                        <span>of Our Own.</span>
+                    </h2>
+
+                    <p>
+                        We don't only build for others. We create products
+                        of our own—turning real problems into technology
+                        people can use.
+                    </p>
+
+                </div>
+
+
+                <!-- Lauritalk -->
+                <article class="featured-product">
+
+                    <div class="featured-product-content">
+
+                        <div class="product-label">
+                            <span></span>
+                            LUMINIX PRODUCT
+                        </div>
+
+                        <h3>Lauritalk</h3>
+
+                        <p class="product-subtitle">
+                            AI-Powered Multilingual Communication
+                        </p>
+
+                        <p class="product-description">
+                            Lauritalk is an AI-powered multilingual
+                            translation platform designed to make
+                            communication across languages and dialects
+                            easier and more accessible.
+                        </p>
+
+                        <div class="product-tags">
+                            <span>Artificial Intelligence</span>
+                            <span>Translation</span>
+                            <span>Mobile</span>
+                        </div>
+
+                        <a
+                            href="https://www.ebongeric.com/portfolio/lauritalk"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            Explore Lauritalk
+                            <span aria-hidden="true">↗</span>
                         </a>
-                        <!-- WhatsApp -->
-                        <a href="https://whatsapp.com/channel/0029VbBn7KlGZNCyszNBLn0A" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.76.982.998-3.675-.236-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.897 6.994c-.004 5.45-4.438 9.88-9.888 9.88m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.333 .157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.333 11.893-11.893 0-3.18-1.24-6.162-3.495-8.411"/>
-                            </svg>
+
+                    </div>
+
+
+                    <a
+                        href="https://www.ebongeric.com/portfolio/lauritalk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="featured-product-image"
+                        aria-label="Explore Lauritalk"
+                    >
+                        <img
+                            src="assets/images/lauritalk-product.png"
+                            alt="Lauritalk multilingual translation application"
+                            loading="lazy"
+                        >
+                    </a>
+
+                </article>
+
+
+                <!-- Lumora -->
+                <article class="featured-product product-reverse">
+
+                    <div class="featured-product-content">
+
+                        <div class="product-label">
+                            <span></span>
+                            LUMINIX PRODUCT
+                        </div>
+
+                        <h3>Lumora Wallet</h3>
+
+                        <p class="product-subtitle">
+                            A Simpler Gateway to Digital Assets
+                        </p>
+
+                        <p class="product-description">
+                            Lumora Wallet is a digital wallet designed
+                            around a cleaner, more accessible experience
+                            for interacting with digital assets and
+                            blockchain technology.
+                        </p>
+
+                        <div class="product-tags">
+                            <span>Digital Wallet</span>
+                            <span>Blockchain</span>
+                            <span>Web3</span>
+                        </div>
+
+                        <a
+                            href="https://www.ebongeric.com/portfolio/lumora"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-link"
+                        >
+                            Explore Lumora Wallet
+                            <span aria-hidden="true">↗</span>
                         </a>
-                        <!-- TikTok -->
-                        <a href="https://tiktok.com/@luminix227" target="_blank" class="text-gray-400 hover:text-white transition duration-300">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
-                            </svg>
+
+                    </div>
+
+
+                    <a
+                        href="https://www.ebongeric.com/portfolio/lumora"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="featured-product-image"
+                        aria-label="Explore Lumora Wallet"
+                    >
+                        <img
+                            src="assets/images/lumora-wallet-product.png"
+                            alt="Lumora digital wallet"
+                            loading="lazy"
+                        >
+                    </a>
+
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             SELECTED WORK
+        ====================================================== -->
+        <section
+            class="section work-section"
+            id="work"
+        >
+            <div class="container">
+
+                <div class="section-heading centered-heading">
+
+                    <p class="eyebrow">SELECTED WORK</p>
+
+                    <h2>
+                        Products &amp; Platforms
+                        <span>We've Helped Build</span>
+                    </h2>
+
+                    <p>
+                        Selected digital products and platforms we've
+                        helped bring to life.
+                    </p>
+
+                </div>
+
+
+                <div class="work-grid">
+
+                    <!-- Kupexsa -->
+                    <article class="project-card">
+
+                        <a
+                            href="https://www.ebongeric.com/portfolio/kupexsa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-image"
+                            aria-label="View Kupexsa project"
+                        >
+                            <img
+                                src="assets/images/kupexsa-project.png"
+                                alt="Kupexsa project"
+                                loading="lazy"
+                            >
+                        </a>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                <span>Platform</span>
+                                <span>Education</span>
+                            </div>
+
+                            <h3>Kupexsa</h3>
+
+                            <p>
+                                A digital platform created to strengthen
+                                connection, access and engagement within
+                                an educational community.
+                            </p>
+
+                            <a
+                                href="https://www.ebongeric.com/portfolio/kupexsa"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                View Project
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Dessetra -->
+                    <article class="project-card">
+
+                        <a
+                            href="https://www.ebongeric.com/portfolio/dessetra"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-image"
+                            aria-label="View Dessetra project"
+                        >
+                            <img
+                                src="assets/images/dessetra-project.png"
+                                alt="Dessetra project"
+                                loading="lazy"
+                            >
+                        </a>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                <span>Platform</span>
+                                <span>Community</span>
+                            </div>
+
+                            <h3>Dessetra</h3>
+
+                            <p>
+                                A digital ecosystem structured around
+                                learning, meaningful connections and
+                                opportunities to earn.
+                            </p>
+
+                            <a
+                                href="https://www.ebongeric.com/portfolio/dessetra"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                View Project
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WordBuild -->
+                    <article class="project-card">
+
+                        <a
+                            href="https://www.ebongeric.com/portfolio/wordbuild"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-image"
+                            aria-label="View WordBuild project"
+                        >
+                            <img
+                                src="assets/images/wordbuild-project.png"
+                                alt="WordBuild project"
+                                loading="lazy"
+                            >
+                        </a>
+
+                        <div class="project-content">
+
+                            <div class="project-meta">
+                                <span>Digital Product</span>
+                                <span>Web</span>
+                            </div>
+
+                            <h3>WordBuild</h3>
+
+                            <p>
+                                A focused digital product designed around
+                                a practical user experience and accessible
+                                web technology.
+                            </p>
+
+                            <a
+                                href="https://www.ebongeric.com/portfolio/wordbuild"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="project-link"
+                            >
+                                View Project
+                                <span aria-hidden="true">↗</span>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             WHO WE BUILD FOR
+        ====================================================== -->
+        <section class="section audiences-section">
+            <div class="container">
+
+                <div class="audiences-layout">
+
+                    <div class="section-heading audiences-heading">
+
+                        <p class="eyebrow">WHO WE BUILD FOR</p>
+
+                        <h2>
+                            Technology Built Around
+                            <span>Real Business Needs.</span>
+                        </h2>
+
+                        <p>
+                            Different organizations face different
+                            challenges. We focus on understanding the
+                            problem first, then selecting and building
+                            the technology that fits.
+                        </p>
+
+                    </div>
+
+
+                    <div class="audiences-grid">
+
+                        <article class="audience-card">
+                            <span class="audience-number">01</span>
+
+                            <div>
+                                <h3>Startups &amp; Founders</h3>
+                                <p>
+                                    From MVPs to scalable digital products.
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="audience-card">
+                            <span class="audience-number">02</span>
+
+                            <div>
+                                <h3>Growing Businesses</h3>
+                                <p>
+                                    Digital systems that improve operations
+                                    and customer experiences.
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="audience-card">
+                            <span class="audience-number">03</span>
+
+                            <div>
+                                <h3>Fintech &amp; Financial Services</h3>
+                                <p>
+                                    Technology for modern financial
+                                    experiences and workflows.
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="audience-card">
+                            <span class="audience-number">04</span>
+
+                            <div>
+                                <h3>Education &amp; Communities</h3>
+                                <p>
+                                    Platforms that connect, educate and
+                                    enable participation.
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="audience-card">
+                            <span class="audience-number">05</span>
+
+                            <div>
+                                <h3>Organizations &amp; Institutions</h3>
+                                <p>
+                                    Purpose-built systems for programs,
+                                    operations and digital transformation.
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <article class="audience-card">
+                            <span class="audience-number">06</span>
+
+                            <div>
+                                <h3>Web3 Ventures</h3>
+                                <p>
+                                    Blockchain products designed around
+                                    practical utility.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             WHY LUMINIX
+        ====================================================== -->
+        <section class="section why-section">
+            <div class="container">
+
+                <div class="why-layout">
+
+                    <div class="why-intro">
+
+                        <p class="eyebrow">WHY LUMINIX</p>
+
+                        <h2>
+                            More Than Developers.
+                            <span>A Technical Partner.</span>
+                        </h2>
+
+                        <p>
+                            Strong products aren't created by writing code
+                            first. They begin with understanding the
+                            problem, the people using the product and the
+                            outcome the business needs.
+                        </p>
+
+                        <a
+                            href="#contact"
+                            class="button button-light"
+                        >
+                            Discuss Your Project
+                            <span aria-hidden="true">→</span>
+                        </a>
+
+                    </div>
+
+
+                    <div class="why-grid">
+
+                        <article class="why-card">
+                            <span>01</span>
+                            <h3>Business Before Code</h3>
+                            <p>
+                                We begin with the problem, users and
+                                business objective—not the technology.
+                            </p>
+                        </article>
+
+
+                        <article class="why-card">
+                            <span>02</span>
+                            <h3>End-to-End Execution</h3>
+                            <p>
+                                From product planning and interface design
+                                to engineering, deployment and iteration.
+                            </p>
+                        </article>
+
+
+                        <article class="why-card">
+                            <span>03</span>
+                            <h3>Built for Growth</h3>
+                            <p>
+                                Technical decisions are made with
+                                performance, maintainability and future
+                                expansion in mind.
+                            </p>
+                        </article>
+
+
+                        <article class="why-card">
+                            <span>04</span>
+                            <h3>Technology With Purpose</h3>
+                            <p>
+                                AI, blockchain and emerging technologies
+                                are used where they create genuine value.
+                            </p>
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             PROCESS
+        ====================================================== -->
+        <section
+            class="section process-section"
+            id="process"
+        >
+            <div class="container">
+
+                <div class="section-heading centered-heading">
+
+                    <p class="eyebrow">HOW WE WORK</p>
+
+                    <h2>
+                        From Idea
+                        <span>to Launch.</span>
+                    </h2>
+
+                    <p>
+                        A focused product-development process that keeps
+                        business objectives and technical execution aligned.
+                    </p>
+
+                </div>
+
+
+                <div class="process-list">
+
+                    <article class="process-step">
+                        <span class="process-number">01</span>
+
+                        <div class="process-line"></div>
+
+                        <div>
+                            <h3>Understand</h3>
+                            <p>
+                                We understand the problem, users, objectives
+                                and constraints.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="process-step">
+                        <span class="process-number">02</span>
+
+                        <div class="process-line"></div>
+
+                        <div>
+                            <h3>Define</h3>
+                            <p>
+                                We establish the product scope, architecture
+                                and execution roadmap.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="process-step">
+                        <span class="process-number">03</span>
+
+                        <div class="process-line"></div>
+
+                        <div>
+                            <h3>Build</h3>
+                            <p>
+                                We design and engineer the product through
+                                clear development milestones.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="process-step">
+                        <span class="process-number">04</span>
+
+                        <div class="process-line"></div>
+
+                        <div>
+                            <h3>Launch</h3>
+                            <p>
+                                We test, deploy and prepare the product for
+                                real users.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article class="process-step">
+                        <span class="process-number">05</span>
+
+                        <div class="process-line"></div>
+
+                        <div>
+                            <h3>Improve</h3>
+                            <p>
+                                Where required, we continue improving the
+                                product based on usage, feedback and growth.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT
+        ====================================================== -->
+        <section
+            class="section contact-section"
+            id="contact"
+        >
+            <div class="contact-glow"></div>
+
+            <div class="container">
+
+                <div class="contact-layout">
+
+                    <div class="contact-copy">
+
+                        <p class="eyebrow">START A PROJECT</p>
+
+                        <h2>
+                            Have a Problem
+                            <span>Technology Could Solve?</span>
+                        </h2>
+
+                        <p>
+                            Tell us what you're trying to build, improve
+                            or automate. We'll help you determine the right
+                            technical approach.
+                        </p>
+
+
+                        <div class="contact-details">
+
+                            <a href="mailto:contact@luminix.space">
+                                <span class="contact-detail-icon">
+                                    @
+                                </span>
+
+                                <div>
+                                    <small>General Enquiries</small>
+                                    <strong>contact@luminix.space</strong>
+                                </div>
+                            </a>
+
+
+                            <a href="mailto:partnership@luminix.space">
+                                <span class="contact-detail-icon">
+                                    ↗
+                                </span>
+
+                                <div>
+                                    <small>Partnerships</small>
+                                    <strong>
+                                        partnership@luminix.space
+                                    </strong>
+                                </div>
+                            </a>
+
+
+                            <a href="mailto:invest@luminix.space">
+                                <span class="contact-detail-icon">
+                                    +
+                                </span>
+
+                                <div>
+                                    <small>Investment</small>
+                                    <strong>invest@luminix.space</strong>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-form-wrapper">
+
+                        <div
+                            id="form-message"
+                            class="form-message"
+                            role="status"
+                            aria-live="polite"
+                        ></div>
+
+                        <form
+                            id="contact-form"
+                            action="https://formspree.io/f/mldqnlqg"
+                            method="POST"
+                        >
+
+                            <!-- Spam protection -->
+                            <input
+                                type="text"
+                                name="_gotcha"
+                                class="form-honeypot"
+                                tabindex="-1"
+                                autocomplete="off"
+                            >
+
+                            <input
+                                type="hidden"
+                                name="_subject"
+                                value="New Contact from Luminix Website"
+                            >
+
+                            <input
+                                type="hidden"
+                                name="_replyto"
+                                id="reply-to"
+                            >
+
+                            <input
+                                type="hidden"
+                                name="_language"
+                                value="en"
+                            >
+
+                            <input
+                                type="hidden"
+                                name="_format"
+                                value="plain"
+                            >
+
+
+                            <div class="form-field">
+
+                                <label for="inquiry-type">
+                                    What brings you here?
+                                </label>
+
+                                <select
+                                    id="inquiry-type"
+                                    name="inquiry-type"
+                                    required
+                                >
+                                    <option value="">
+                                        Select an option
+                                    </option>
+
+                                    <option value="Build a Product">
+                                        Build a Product
+                                    </option>
+
+                                    <option value="AI and Automation">
+                                        AI &amp; Automation
+                                    </option>
+
+                                    <option value="Web or Mobile Development">
+                                        Web or Mobile Development
+                                    </option>
+
+                                    <option value="Fintech Development">
+                                        Fintech Development
+                                    </option>
+
+                                    <option value="Blockchain and Web3">
+                                        Blockchain &amp; Web3
+                                    </option>
+
+                                    <option value="Technical Partnership">
+                                        Technical Partnership / Outsourcing
+                                    </option>
+
+                                    <option value="Partnership">
+                                        Partnership / Collaboration
+                                    </option>
+
+                                    <option value="Investment">
+                                        Investment Inquiry
+                                    </option>
+
+                                    <option value="Consultation">
+                                        Request a Consultation
+                                    </option>
+
+                                    <option value="Other">
+                                        Other
+                                    </option>
+                                </select>
+
+                            </div>
+
+
+                            <div class="form-row">
+
+                                <div class="form-field">
+
+                                    <label for="first-name">
+                                        First Name
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="first-name"
+                                        name="first-name"
+                                        autocomplete="given-name"
+                                        required
+                                    >
+
+                                </div>
+
+
+                                <div class="form-field">
+
+                                    <label for="last-name">
+                                        Last Name
+                                    </label>
+
+                                    <input
+                                        type="text"
+                                        id="last-name"
+                                        name="last-name"
+                                        autocomplete="family-name"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-field">
+
+                                <label for="email">
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-field">
+
+                                <label for="message">
+                                    Tell us about your project
+                                </label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="What are you looking to build, improve or solve?"
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <button
+                                id="submit-button"
+                                type="submit"
+                                class="button button-primary submit-button"
+                            >
+                                <span id="button-text">
+                                    Send Project Enquiry
+                                </span>
+
+                                <span
+                                    id="loading-spinner"
+                                    class="loading-spinner"
+                                    aria-hidden="true"
+                                ></span>
+
+                                <span
+                                    class="submit-arrow"
+                                    aria-hidden="true"
+                                >
+                                    →
+                                </span>
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- =========================================================
+         FOOTER
+    ========================================================== -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <a
+                        href="#home"
+                        class="brand footer-logo"
+                        aria-label="Luminix home"
+                    >
+                        <span
+                            class="brand-mark"
+                            aria-hidden="true"
+                        ></span>
+
+                        <span class="brand-name">
+                            Luminix
+                        </span>
+                    </a>
+
+                    <p>
+                        Turning problems into intelligent products.
+                    </p>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <div>
+                        <h3>Explore</h3>
+
+                        <a href="#solutions">Solutions</a>
+                        <a href="#products">Products</a>
+                        <a href="#work">Our Work</a>
+                        <a href="#process">How We Work</a>
+                    </div>
+
+
+                    <div>
+                        <h3>Company</h3>
+
+                        <a href="#contact">Start a Project</a>
+                        <a href="careers.html">Careers</a>
+                        <a href="privacy-policy.html">
+                            Privacy Policy
+                        </a>
+                        <a href="terms-of-service.html">
+                            Terms of Service
                         </a>
                     </div>
+
                 </div>
-                <div class="flex space-x-6">
-                    <a href="privacy-policy.html" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a>
-                    <a href="terms-of-service.html" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © <span id="current-year"></span> Luminix.
+                    All rights reserved.
+                </p>
+
+
+                <div
+                    class="social-links"
+                    aria-label="Luminix social media"
+                >
+
+                    <!-- LinkedIn -->
+                    <a
+                        href="https://www.linkedin.com/company/luminixspace/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Luminix on LinkedIn"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M19 0h-14C2.239 0 0 2.239 0 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5V5c0-2.761-2.238-5-5-5zM8 19H5V8h3v11zM6.5 6.732c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zM20 19h-3v-5.604c0-3.368-4-3.113-4 0V19h-3V8h3v1.765c1.396-2.586 7-2.777 7 2.476V19z"
+                            />
+                        </svg>
+                    </a>
+
+
+                    <!-- Facebook -->
+                    <a
+                        href="https://facebook.com/luminixspace"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Luminix on Facebook"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M24 12.073C24 5.446 18.627.073 12 .073S0 5.446 0 12.073c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                            />
+                        </svg>
+                    </a>
+
+
+                    <!-- X -->
+                    <a
+                        href="https://x.com/Luminixspace"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Luminix on X"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.451-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"
+                            />
+                        </svg>
+                    </a>
+
+
+                    <!-- WhatsApp -->
+                    <a
+                        href="https://whatsapp.com/channel/0029VbBn7KlGZNCyszNBLn0A"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Luminix WhatsApp channel"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.76.982.998-3.675-.236-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.897 6.994c-.004 5.45-4.438 9.88-9.888 9.88"
+                            />
+                        </svg>
+                    </a>
+
+
+                    <!-- TikTok -->
+                    <a
+                        href="https://tiktok.com/@luminix227"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Luminix on TikTok"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"
+                            />
+                        </svg>
+                    </a>
+
                 </div>
+
             </div>
-            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-                <p>&copy; 2025 Luminix. All rights reserved. Making the future brighter since day one.</p>
-            </div>
+
         </div>
+
     </footer>
 
-    <!-- Connect the external JavaScript file -->
+
+    <!-- Main JavaScript -->
     <script src="scripts/script.js"></script>
-    
-    <!-- Enhanced JavaScript for smooth scrolling and GA tracking -->
-    <script>
-        // Enhanced smooth scrolling with GA tracking
-        function scrollToSection(sectionId) {
-            document.getElementById(sectionId).scrollIntoView({
-                behavior: 'smooth'
-            });
-            
-            // Track scroll events in Google Analytics
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'scroll_to_section', {
-                    'event_category': 'Navigation',
-                    'event_label': sectionId
-                });
-            }
-        }
 
-        // Add smooth scrolling to all navigation links with GA tracking
-        // BUT ONLY for internal page anchors (not external links)
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const target = document.querySelector(targetId);
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                    
-                    // Track internal link clicks in Google Analytics
-                    if (typeof gtag !== 'undefined') {
-                        gtag('event', 'internal_link_click', {
-                            'event_category': 'Navigation',
-                            'event_label': targetId
-                        });
-                    }
-                }
-            });
-        });
-
-        // Track external link clicks (but don't prevent default behavior)
-        document.querySelectorAll('a[href^="http"]').forEach(link => {
-            link.addEventListener('click', function(e) {
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'external_link_click', {
-                        'event_category': 'Outbound',
-                        'event_label': this.href,
-                        'transport_type': 'beacon'
-                    });
-                }
-            });
-        });
-    </script>
-
-    <!-- Mobile Menu Functionality -->
-    <script>
-        // Mobile menu toggle
-        const mobileMenuButton = document.querySelector('button.md\\:hidden');
-        const navLinks = document.querySelector('.hidden.md\\:flex');
-        
-        mobileMenuButton.addEventListener('click', () => {
-            navLinks.classList.toggle('hidden');
-            navLinks.classList.toggle('flex');
-            navLinks.classList.toggle('flex-col');
-            navLinks.classList.toggle('absolute');
-            navLinks.classList.toggle('top-16');
-            navLinks.classList.toggle('left-0');
-            navLinks.classList.toggle('right-0');
-            navLinks.classList.toggle('bg-white');
-            navLinks.classList.toggle('p-6');
-            navLinks.classList.toggle('space-y-4');
-            navLinks.classList.toggle('shadow-lg');
-            
-            // Track mobile menu toggles
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'mobile_menu_toggle', {
-                    'event_category': 'Navigation'
-                });
-            }
-        });
-    </script>
-
-    <!-- Form Submission with Formspree and GA tracking -->
-    <script>
-        const contactForm = document.getElementById('contact-form');
-        const formMessage = document.getElementById('form-message');
-        const submitButton = document.getElementById('submit-button');
-        const buttonText = document.getElementById('button-text');
-        const loadingSpinner = document.getElementById('loading-spinner');
-        const emailInput = document.getElementById('email');
-        const replyToField = document.getElementById('reply-to');
-        const inquiryType = document.getElementById('inquiry-type');
-
-        // Update reply-to field when email changes
-        emailInput.addEventListener('input', function() {
-            replyToField.value = this.value;
-        });
-
-        contactForm.addEventListener('submit', async function(e) {
-            e.preventDefault();
-            
-            // Validate form
-            if (!contactForm.checkValidity()) {
-                showFormMessage('Please fill in all required fields correctly.', 'error');
-                return;
-            }
-            
-            // Show loading state
-            submitButton.disabled = true;
-            buttonText.textContent = 'Sending...';
-            loadingSpinner.classList.remove('hidden');
-            
-            // Hide any previous messages
-            formMessage.classList.add('hidden');
-            
-            // Track form submission attempt in Google Analytics
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'form_submission_attempt', {
-                    'event_category': 'Contact',
-                    'event_label': inquiryType.value
-                });
-            }
-            
-            // Get form data
-            const formData = new FormData(contactForm);
-            
-            try {
-                const response = await fetch(contactForm.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
-                    }
-                });
-                
-                if (response.ok) {
-                    // Success message with more personality
-                    const successMessages = [
-                        "Message sent! Our AI assistant is doing a happy dance. We'll respond within 24 hours. 🎉",
-                        "Success! Your message is now traveling through the digital ether to our team. We'll illuminate your inbox soon! ✨",
-                        "Message delivered! Our team is reviewing it now. Expect a response faster than blockchain confirmation times. ⚡"
-                    ];
-                    const randomMessage = successMessages[Math.floor(Math.random() * successMessages.length)];
-                    showFormMessage(randomMessage, 'success');
-                    
-                    // Track successful form submission in Google Analytics
-                    if (typeof gtag !== 'undefined') {
-                        gtag('event', 'form_submission_success', {
-                            'event_category': 'Contact',
-                            'event_label': inquiryType.value
-                        });
-                    }
-                    
-                    contactForm.reset();
-                } else {
-                    // Error message
-                    showFormMessage('Oops! Our form seems to be taking a coffee break. Please try again or email us directly at contact@luminix.space', 'error');
-                    
-                    // Track form submission error in Google Analytics
-                    if (typeof gtag !== 'undefined') {
-                        gtag('event', 'form_submission_error', {
-                            'event_category': 'Contact',
-                            'event_label': inquiryType.value
-                        });
-                    }
-                }
-            } catch (error) {
-                // Network error
-                showFormMessage('Network error detected. Please check your connection and try again. If problems persist, email us directly.', 'error');
-                
-                // Track network error in Google Analytics
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'form_network_error', {
-                        'event_category': 'Contact'
-                    });
-                }
-            } finally {
-                // Reset button state
-                submitButton.disabled = false;
-                buttonText.textContent = 'Send Message';
-                loadingSpinner.classList.add('hidden');
-            }
-        });
-
-        function showFormMessage(message, type) {
-            formMessage.innerHTML = message;
-            formMessage.className = 'p-4 mb-6 rounded-lg';
-            
-            if (type === 'success') {
-                formMessage.classList.add('bg-green-100', 'text-green-800', 'border', 'border-green-300');
-            } else {
-                formMessage.classList.add('bg-red-100', 'text-red-800', 'border', 'border-red-300');
-            }
-            
-            formMessage.classList.remove('hidden');
-            
-            // Scroll to message
-            formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            
-            // Auto-hide success message after 10 seconds
-            if (type === 'success') {
-                setTimeout(() => {
-                    formMessage.classList.add('hidden');
-                }, 10000);
-            }
-        }
-    </script>
 </body>
 </html>
